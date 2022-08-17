@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+.botao-home {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+body,
+input,
+textarea {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    padding: 40px;
+    background-color: rgb(88, 20, 152);
+    color: rgb(245, 240, 255);
+    
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    
+}
+
+header nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+header nav li a {
+    color: rgb(245, 240, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 140px;
+}
+
+section .container-projetos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descrição-projeto {
+    width: 500px;
+    margin-left: 30px;
+}
+
+.imghome {
+    max-width: 500px;
+    height: auto;
+    margin-right: 50px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 80px;
+}
+
+.grande {
+    font-size: 20px;
+    text-align: center;
+}
+
+#sobre {
+    margin: 300px 80px;
+}
+
+.avatar {
+    margin-left: 30px;
+    height: 300px;
+}
+
+h3 {
+    font-size: 60px;
+    color: rgb(88, 20, 152);
+    margin-bottom: 30px;
+}
+
+.flecha {
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+}
+
+.logofim {
+    height: 30px;
+}
+
+h4 {
+    font-size: 26px;
+}
+
+h5 {
+    font-size: 26px;
+    background-color: rgb(177, 147, 204);
+    display: inline-block;
+    
+}
+
+
+p,
+a {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(245, 240, 255);
+    background-color: rgb(88, 20, 152);
+    padding: 14px;
+    font-weight: 550;
+    transition: 0.15s;
+}
+
+a:hover {
+    background-color: rgb(127, 70, 180);
+    cursor: pointer;
+}
+
+.projeto {
+    max-width: 500px;
+}
+
+#projetos {
+    justify-content: center;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: rgb(88, 20, 152);
+    color: rgb(245, 240, 255);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(127, 70, 180);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(88, 20, 152);
+}
+
+.social-links img {
+    height: 30px;
+    margin-right: 10px;
+    display: inline;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.contact .container {
+    display: flex;
+    
+}
+
+.contact-methods {
+    justify-content: space-between;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    margin-bottom: 20px;
+}
+
+.linkedgit {
+    background: none;
+    color: black;
+    font-size: 22px;
+}
+
+.linkedgit:hover {
+    text-decoration: underline;
+    background-color: rgb(245, 240, 255);
+}
+
+footer {
+    background-color: rgb(245, 240, 255);
+    padding: 20px;
+    font-size: 20px;
+}
+

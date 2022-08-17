@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <title>Meu Portfólio</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li>
+              <a href="#sobre" title="Ir para a seção sobre mim">Sobre mim</a>
+            </li>
+            <li>
+              <a href="#projetos" title="Ir para a seção projetos">Projetos</a>
+            </li>
+            <li>
+              <a href="#cv" title="Ir para a seção curriculum">Meu currículo</a>
+            </li>
+            <li>
+              <a href="#contato" title="Ir para a seção contato">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="home">
+      <div class="container">
+        <img class="imghome" src="./imagens/ross.jpg" alt="Pintura Bob Ross" />
+        <div>
+          <h2>Bem-vindo!</h2>
+          <p class="grande">
+            Meu nome é Natália e eu sou desenvolvedora Front-End.
+          </p>
+          <p class="grande">Aqui você
+            encontra alguns dos meus trabalhos :)</p>
+          <img class="flecha" src="./imagens/arrow.jpg" alt="flecha" />
+        </div>
+      </div>
+    </section>
+    <main>
+      <!--1-->
+      <section id="sobre">
+        <div class="container">
+          <div>
+            <h3>Sobre mim</h3>
+            <p class="grande">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum
+              sed maxime tempora animi vero exercitationem voluptate cum
+              praesentium enim nesciunt! Id nihil quasi minus debitis alias
+              consequatur impedit praesentium rem ad neque deleniti voluptatem
+              iste, itaque temporibus ea quod maxime, provident velit mollitia.
+              Vero labore sequi ipsam ut assumenda aliquam, earum cum tenetur
+              eligendi. Quasi ratione excepturi harum natus iusto, nemo dolores
+              aliquam necessitatibus neque aliquid et explicabo sapiente fugit
+              ad vitae iste incidunt aperiam dignissimos sint vero, reiciendis
+              deserunt exercitationem! Necessitatibus, quisquam!
+            </p>
+          </div>
+          <img class="avatar" src="./imagens/avatar.png" alt="Avatar" />
+        </div>
+      </section>
+
+      <!--2-->
+      <section id="projetos">
+        <div class="container">
+          <h3>Projetos</h3>
+        </div>
+        <!--A-->
+        <div class="container-projetos">
+          <div>
+            <h5>Tipo do projeto</h5>
+          </br>
+            <img class="projeto" src="./imagens/breve.png" alt="Em breve" />
+          </div>
+          <div class="descrição-projeto">
+            <h4>Nome do projeto</h4>
+            <p>
+              Desenvolvido em: agosto/outubro 2022 <br />
+              Habilidades: HTML, CSS
+            </p>
+          </br>
+            <a href="#" target="_blank">Visitar a página</a>
+          </div>
+        </div>
+        <!--B-->
+        <div class="container-projetos">
+          <div class="descrição-projeto">
+            <h4>Nome do projeto</h4>
+            <p>
+              Desenvolvido em: agosto/outubro 2022 <br />
+              Habilidades: HTML, CSS
+            </p>
+          </br>
+            <a href="#" target="_blank">Visitar a página</a>
+          </div>
+          <div>
+            <h5>Tipo do projeto</h5>
+          </br>
+            <img class="projeto" src="./imagens/breve.png" alt="Em breve" />
+          </div>
+        </div>
+        <!--C-->
+        <div class="container-projetos">
+          <div>
+            <h5>Tipo do projeto</h5>
+          </br>
+            <img class="projeto" src="./imagens/breve.png" alt="Em breve" />
+          </div>
+          <div class="descrição-projeto">
+            <h4>Nome do projeto</h4>
+            <p>
+              Desenvolvido em: agosto/outubro 2022 <br />
+              Habilidades: HTML, CSS
+            </p>
+          </br>
+            <a href="#" target="_blank">Visitar a página</a>
+          </div>
+        </div>
+      </section>
+
+      <!--3-->
+      <section id="cv">
+        <div class="container">
+          <div>
+            <h3>Meu currículo</h3>
+            <a href="#" target="_blank">Abrir o arquivo</a>
+          </div>
+        </div>
+      </section>
+
+      <!--4-->
+      <section id="contato">
+        <div class="container">
+          <div class="contact-methods">
+            <div>
+              <h3>Contato</h3>
+              <form action="">
+                <input type="text" placeholder="Seu nome" required />
+                <input type="email" placeholder="Seu e-mail" required />
+                <textarea
+                  placeholder="Sua mensagem"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+                <button type="submit">Enviar</button>
+              </form>
+            </div>
+            <div>
+              <h3>Acompanhe meus trabalhos</h3>
+              <ul class="social-links">
+                <li>
+                  <a class="linkedgit" href="#" title="Meu GitHub">
+                    <img src="./imagens/github.png" alt="Logo do GitHub" />Meu
+                    GitHub
+                  </a>
+                </li>
+                <li>
+                  <a class="linkedgit" href="#" title="Meu LinkedIn">
+                    <img src="./imagens/linkedin.png" alt="Logo do LinkedIn" />
+                    Vamos nos conectar!
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  
+<footer>
+  &copy; Todos os direitos reservados - 2022
+</footer>
+    
+  </body>
+</html>
